@@ -1,0 +1,279 @@
+body{
+	background-color: #f1f2ed;
+}
+header{
+	padding:0 4.5rem;
+	background-color: #5a8d99;
+}
+
+header ul li{
+	font-size: 1.5rem;
+	padding:1rem 0;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header ul li a{
+	color:#ffd79a;
+}
+
+h1{
+	text-align:center;
+	font size: 1rem;
+	color: white;
+	padding-top: 1rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-bottom: 1rem solid:#ffff;
+}
+
+ h3{
+	color:#fff;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3rem;
+	color:#000000;
+	padding-bottom: 2rem;
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:white;
+}
+/*intro to millenium park */
+
+.intro{
+	padding:2rem 0;
+	font-family: 'Assistant', sans-serif;
+	background-color: #5a8d99;
+}
+
+.intro p{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size:1rem;
+
+}
+
+/*collage of images of things to do */ 
+
+.todo{
+	padding:4.5rem 0;
+	font-family: 'Assistant', sans-serif;
+	background-color: #aa8a71;
+	font color: #fff;
+}
+
+.todo p{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.todo li a:hover{
+	background-color: #ceaf97;
+}
+
+.todo li a{
+	font-size: 1.3rem;
+	background-color:#ceaf97;
+	color:#fff;
+}
+
+.tabs {
+    margin: 0;
+    border: 0px;
+    background: ;
+    list-style-type: none;
+}
+
+.verticaltabs{
+	color:white;
+}
+
+.tabs-content {
+    border: 0px ;
+    border-top: 0;
+    background: 0;
+    color: 0;
+    transition: all 0.5s ease;
+    font-family: 'Assistant', sans-serif;
+}
+
+/*Places to Stay */ 
+
+.stay{
+	padding:4.5rem 0;
+	background-color: #ffd79a;
+	font-size: 1rem;
+	text-align: center;
+
+}
+
+
+.stay img{
+	border: 2px solid #fff;
+}
+blockquote {
+    margin: 0 0 1rem;
+    padding: 0.5625rem 1.25rem 0 1.1875rem;
+    border-left: 0px;
+    color:white;
+}
+
+blockquote p{
+	color:#000000;
+	font-size: 1rem;
+	font-family: 'Assistant', sans-serif;
+}
+
+h2{
+	font-size:1.2rem;
+	color:#000000;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+/*TESTIMONIALS*/ 
+
+.testimonials {
+	line-height: 2rem;
+	font-size: 1.5rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.testimonial p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5rem;
+
+}
+@charset "UTF-8";
+
+.featured-testimonials-section {
+  background: #f1f2ed;
+  padding: 2rem 1rem;
+}
+
+.featured-testimonials-section .featured-testimonials-container .orbit-previous {
+  color: #0a0a0a;
+  left: -1rem;
+}
+
+.featured-testimonials-section .featured-testimonials-container .orbit-next {
+  color: #0a0a0a;
+  right: -1rem;
+}
+
+.featured-testimonials-section .testimonial {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 1rem;
+}
+
+.featured-testimonials-section .profile-pic {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.featured-testimonials-section .featured-testimonials-quotation {
+  margin-left: 3rem;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.featured-testimonials-section .featured-testimonials-quotation::before {
+  content: "“";
+  font-size: 5rem;
+  color: #d6d6d6;
+  position: absolute;
+  top: -2.5rem;
+  left: -1.5rem;
+}
+
+.featured-testimonials-section .featured-testimonials-quotation::after {
+  content: "”";
+  font-size: 5rem;
+  color: #d6d6d6;
+  position: absolute;
+  bottom: -4rem;
+  right: -.5rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .featured-testimonials-section .featured-testimonials-quotation {
+    margin-left: 0;
+  }
+}
+
+.orbitfigure{
+	background-image: url(3563238977_c5b12ec138_o.jpg);
+}
+
+
+.learn{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #121d21;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.learn p{
+	padding-top: 3rem;
+	font-family: 'Assistant', sans-serif;
+}
+
+.learn p a{
+	background-color: #5a8d99;
+}
+ 
+ .learn img{
+ 	padding-bottom: 2rem;
+ 	padding-top: 2rem;
+ }
+
+.learn label{
+	color: white;
+	text-align:left;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.popup{
+	background-color:#5a8d99; 
+}
+
+.popup p{
+	 color: #fff;
+
+}
+
+footer{
+	padding:5rem 0;
+	background-color: #5a8d99;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	font-size: 1rem;
+}
+footer p{
+	text-align: left;
+	font-family: 'Assistant', sans-serif;
+
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 2rem;
+}
